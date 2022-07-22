@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #e0e8ff;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 0 10px;
+  position: relative;
+}
+
+.container .bg-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.container .bg-svg img {
+  width: 100%;
+}
+
+.container .card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.container .card .img-container {
+  width: 100%;
+}
+
+.container .card .img-container img {
+  width: 100%;
+}
+
+.container .card .text-container {
+  text-align: center;
+  padding: 30px 50px 25px;
+}
+
+.container .card .text-container h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1f2f56;
+  margin-bottom: 15px;
+}
+
+.container .card .text-container p {
+  color: #7280a7;
+}
+
+.container .card .price-card {
+  background-color: #f5f7ff;
+  margin: 0px 40px;
+  border-radius: 15px;
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .price-card a {
+  font-weight: 900;
+}
+
+.container .card .price-card .price-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .price-card .price-text img {
+  margin-right: 15px;
+}
+
+.container .card .price-card .price-text .text h4 {
+  font-weight: 900;
+}
+
+.container .card .price-card .price-text .text p {
+  color: #7280a7;
+}
+
+.container .card .btn-container {
+  margin-top: 30px;
+  padding: 0 50px;
+}
+
+.container .card .btn-container button {
+  display: block;
+  margin: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #7280a7;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.container .card .btn-container button:nth-child(1) {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-weight: normal;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #3829e0;
+  -webkit-box-shadow: 0 10px 20px #dbdbdb;
+          box-shadow: 0 10px 20px #dbdbdb;
+}
+
+@media (max-width: 480px) {
+  .container .card .price-card {
+    margin: 0 15px;
+    padding: 30px 15px;
+  }
+  .container .card .btn-container {
+    padding: 0 20px;
+  }
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: #3829e0;
+}
+/*# sourceMappingURL=style.css.map */
